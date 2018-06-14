@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Multiply fast! Free</string>
+    <string name="share_choose_app">Select an application</string>
+    <string name="share_title">Your result %s:</string>
+    <string name="ui_your_age">YOUR AGE:</string>
+    <string name="ui_btn_8"> 8 YEARS</string>
+    <string name="ui_btn_11"> 11 YEARS</string>
+    <string name="ui_btn_14"> 14 YEARS</string>
+    <string name="ui_btn_18"> 18 YEARS</string>
+    <string name="ui_yes">Yes</string>
+    <string name="ui_no">No</string>
+    <string name="ui_your_statistics">YOUR STATISTICS</string>
+    <string name="ui_all">GUESS ALL:</string>
+    <string name="ui_restart">Start over</string>
+
+    <string name="value_1_10">Do your best! More!</string>
+    <string name="value_11_20">Repeat the multiplication table!</string>
+    <string name="value_21_24">A little bit more and you will get to the next level!</string>
+    <string name="value_25">Here comes the next level! There is much work to do!</string>
+    <string name="value_26_35">82% of players got to this level!</string>
+    <string name="value_36_45">It is not the limit of your capabilities, is it?</string>
+    <string name="value_46_49">A little bit more and you will get to the next level!</string>
+    <string name="value_50">Here comes the next level! 2 more levels are waiting for you!</string>
+    <string name="value_61_70">Are you sure you know the multiplication table?</string>
+    <string name="value_71_74">A little bit more and you will get to the next level!</string>
+    <string name="value_75">Here comes the next level! Only one level and you will win!</string>
+    <string name="value_76_85">Only 28% of players got to this level!</string>
+    <string name="value_86_95">Only 2% of players achieved your results!</string>
+    <string name="value_96_99">A little bit more and you will be able to get to the best set who crossed the finish line!</string>
+    <string name="value_100">Congratulations! You are one of millions who managed to reach the finish line!</string>
+    <string name="value_51_60">Only 57% of players got to this level!</string>
+
+
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Скоростное умножение! Бесплатно</string>
+    <string name="share_choose_app">Выберите приложение</string>
+    <string name="share_title">Ваш результат %s:</string>
+    <string name="ui_your_age">ВАШ ВОЗРАСТ:</string>
+    <string name="ui_btn_8"> 8 ЛЕТ</string>
+    <string name="ui_btn_11"> 11 ЛЕТ</string>
+    <string name="ui_btn_14"> 14 ЛЕТ</string>
+    <string name="ui_btn_18"> 18 ЛЕТ</string>
+    <string name="ui_yes">Да</string>
+    <string name="ui_no">Нет</string>
+    <string name="ui_your_statistics">ВАША СТАТИСТИКА</string>
+    <string name="ui_all">ВСЕГО УГАДАНО:</string>
+    <string name="ui_restart">Начать сначала</string>
+
+    <string name="value_1_10">Старайся лучше!</string>
+    <string name="value_11_20">Повтори таблицу умножения!</string>
+    <string name="value_21_24">Еще немного и сможешь перейти на следующий уровень!</string>
+    <string name="value_25">А вот и следующий уровень! Еще много работы впереди!</string>
+    <string name="value_26_35">До этого этапа дошли 82% игроков!</string>
+    <string name="value_36_45">Это ведь не предел твоих возможностей?</string>
+    <string name="value_46_49">Еще немного и сможешь перейти на следующий уровень!</string>
+    <string name="value_50">А вот и следующий уровень! Еще 2 уровня ждут тебя!</string>
+    <string name="value_61_70">Ты уверен, что знаешь всю таблицу умножения?</string>
+    <string name="value_71_74">Еще немного и сможешь перейти на следующий уровень!</string>
+    <string name="value_75">А вот и следующий уровень! До победы один уровень!</string>
+    <string name="value_76_85">До этого этапа дошли 28% игроков!</string>
+    <string name="value_86_95">До твоих результатов дошли 2% игроков</string>
+    <string name="value_96_99">Еще немного и сможешь попасть в число избранных, которые дошли до финала!</string>
+    <string name="value_100">Поздравляю, ты один из миллиона, кто смог дойти до финиша!</string>
+    <string name="value_51_60">До этого этапа дошли 57% игроков!</string>
+
+
+</resources>

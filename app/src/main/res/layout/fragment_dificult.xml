@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.ilgiz.matica.fragments.DificultFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="-40dp"
+        android:background="@color/colorBG"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etYourAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:enabled="false"
+            android:text="@string/ui_your_age"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="30dp"
+            android:text="@string/ui_btn_8"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:enabled="false"
+            android:text="@string/ui_btn_11"
+            android:textColor="@color/colorDisable"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_button"
+            android:enabled="false"
+            android:text="@string/ui_btn_14"
+            android:textColor="@color/colorDisable"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:enabled="false"
+            android:text="@string/ui_btn_18"
+            android:textColor="@color/colorDisable"
+            android:textSize="24dp" />
+    </LinearLayout>
+</FrameLayout>

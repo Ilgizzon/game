@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "ru.ilgiz.matica"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 8
+        versionName "1.0"
+
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/flurry-analytics-6.5.0.jar')
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.7.5'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    compile('com.google.android.gms:play-services-ads:8.4.0') {
+        exclude module: 'support-v4'
+    }
+    compile('com.google.android.gms:play-services-location:8.4.0') {
+        exclude module: 'support-v4'
+    }
+    compile project(':cheetah-mobile-3.4.7')
+    compile 'com.android.support:multidex:1.0.1'
+
+}
